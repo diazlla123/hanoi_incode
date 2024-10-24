@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.tower {
+  display: inline-block;
+  width: 120px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 0 20px;
+  position: relative;
+}
+
+.rod {
+  width: 10px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.disk {
+  position: absolute;
+  height: 20px;
+  background-color: orange;
+  border: 1px solid black;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#controls {
+  margin: 20px;
+}
